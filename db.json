@@ -1,0 +1,398 @@
+{
+  "meta": {
+    "page": {
+      "current-page": 1,
+      "per-page": 50,
+      "from": 1,
+      "to": 7,
+      "total": 7,
+      "last-page": 1
+    }
+  },
+  "data": [
+    {
+      "type": "items",
+      "id": "7",
+      "attributes": {
+        "name": "VueX Online Event",
+        "description": "<p>dsfsdfsdfsdf</p>",
+        "status": "published",
+        "image": null,
+        "is_on_homepage": false,
+        "date_at": "2021-06-02",
+        "created_at": "2021-06-02 13:08:26",
+        "updated_at": "2021-06-02 13:08:26"
+      },
+      "relationships": {
+        "user": {
+          "links": {
+            "related": "https://api.bookmeinscotty.com/api/v1/items/7/user"
+          }
+        },
+        "category": {
+          "data": {
+            "type": "categories",
+            "id": "5"
+          },
+          "links": {
+            "self": "https://api.bookmeinscotty.com/api/v1/items/7/relationships/category",
+            "related": "https://api.bookmeinscotty.com/api/v1/items/7/category"
+          }
+        },
+        "tags": {
+          "data": [
+            {
+              "type": "tags",
+              "id": "4"
+            }
+          ],
+          "links": {
+            "self": "https://api.bookmeinscotty.com/api/v1/items/7/relationships/tags",
+            "related": "https://api.bookmeinscotty.com/api/v1/items/7/tags"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.bookmeinscotty.com/api/v1/items/7"
+      }
+    },
+    {
+      "type": "items",
+      "id": "4",
+      "attributes": {
+        "name": "Cocktail ideas for your Summer Party",
+        "description": "<p>dssdfsd</p>",
+        "status": "published",
+        "image": null,
+        "is_on_homepage": false,
+        "date_at": "2021-06-02",
+        "created_at": "2021-06-02 12:36:56",
+        "updated_at": "2021-06-02 12:39:57"
+      },
+      "relationships": {
+        "user": {
+          "links": {
+            "related": "https://api.bookmeinscotty.com/api/v1/items/4/user"
+          }
+        },
+        "category": {
+          "data": {
+            "type": "categories",
+            "id": "6"
+          },
+          "links": {
+            "self": "https://api.bookmeinscotty.com/api/v1/items/4/relationships/category",
+            "related": "https://api.bookmeinscotty.com/api/v1/items/4/category"
+          }
+        },
+        "tags": {
+          "data": [
+            {
+              "type": "tags",
+              "id": "3"
+            }
+          ],
+          "links": {
+            "self": "https://api.bookmeinscotty.com/api/v1/items/4/relationships/tags",
+            "related": "https://api.bookmeinscotty.com/api/v1/items/4/tags"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.bookmeinscotty.com/api/v1/items/4"
+      }
+    },
+    {
+      "type": "items",
+      "id": "1",
+      "attributes": {
+        "name": "5 citybreak ideas for this year",
+        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet nulla nulla. Donec luctus lorem justo, ut ullamcorper eros pellentesque ut. Etiam scelerisque dapibus lorem, vitae maximus ante condimentum quis. Maecenas ac arcu a lacus aliquet elementum posuere id nunc. Curabitur sem lorem, faucibus ac enim ut, vestibulum feugiat ante. Fusce hendrerit leo nibh, nec consectetur nulla venenatis et. Nulla tincidunt neque quam, sit amet tincidunt quam blandit in. Nunc fringilla rutrum tortor, sit amet bibendum augue convallis a. Etiam mauris orci, sollicitudin eu condimentum sed, dictum ut odio. Sed vel ligula in lectus scelerisque ornare.Mauris dolor nisl, finibus eget sem in, ultrices semper libero. Nullam accumsan suscipit tortor, a vestibulum sapien imperdiet quis. Donec pretium mauris quis lectus sodales accumsan. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec tincidunt semper orci eu molestie. Vivamus fermentum enim vitae magna elementum, quis iaculis augue tincidunt. Donec fermentum quam facilisis sem dictum rutrum. Nunc nec urna lectus. Nulla nec ultrices lorem. Integer ac ante massa.</p>",
+        "status": "draft",
+        "image": "https://i.picsum.photos/id/0/5616/3744.jpg?hmac=3GAAioiQziMGEtLbfrdbcoenXoWAW-zlyEAMkfEdBzQ",
+        "is_on_homepage": true,
+        "date_at": "2021-05-18",
+        "created_at": "2021-05-18 15:09:41",
+        "updated_at": "2021-09-27 14:42:04"
+      },
+      "relationships": {
+        "user": {
+          "links": {
+            "related": "https://api.bookmeinscotty.com/api/v1/items/1/user"
+          }
+        },
+        "category": {
+          "data": {
+            "type": "categories",
+            "id": "1"
+          },
+          "links": {
+            "self": "https://api.bookmeinscotty.com/api/v1/items/1/relationships/category",
+            "related": "https://api.bookmeinscotty.com/api/v1/items/1/category"
+          }
+        },
+        "tags": {
+          "data": [
+            {
+              "type": "tags",
+              "id": "1"
+            },
+            {
+              "type": "tags",
+              "id": "2"
+            },
+            {
+              "type": "tags",
+              "id": "3"
+            },
+            {
+              "type": "tags",
+              "id": "6"
+            }
+          ],
+          "links": {
+            "self": "https://api.bookmeinscotty.com/api/v1/items/1/relationships/tags",
+            "related": "https://api.bookmeinscotty.com/api/v1/items/1/tags"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.bookmeinscotty.com/api/v1/items/1"
+      }
+    },
+    {
+      "type": "items",
+      "id": "2",
+      "attributes": {
+        "name": "Top 10 restaurants in Italy",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet nulla nulla. Donec luctus lorem justo, ut ullamcorper eros pellentesque ut. Etiam scelerisque dapibus lorem, vitae maximus ante condimentum quis. Maecenas ac arcu a lacus aliquet elementum posuere id nunc. Curabitur sem lorem, faucibus ac enim ut, vestibulum feugiat ante. Fusce hendrerit leo nibh, nec consectetur nulla venenatis et. Nulla tincidunt neque quam, sit amet tincidunt quam blandit in. Nunc fringilla rutrum tortor, sit amet bibendum augue convallis a. Etiam mauris orci, sollicitudin eu condimentum sed, dictum ut odio. Sed vel ligula in lectus scelerisque ornare.Mauris dolor nisl, finibus eget sem in, ultrices semper libero. Nullam accumsan suscipit tortor, a vestibulum sapien imperdiet quis. Donec pretium mauris quis lectus sodales accumsan. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec tincidunt semper orci eu molestie. Vivamus fermentum enim vitae magna elementum, quis iaculis augue tincidunt. Donec fermentum quam facilisis sem dictum rutrum. Nunc nec urna lectus. Nulla nec ultrices lorem. Integer ac ante massa.",
+        "status": "published",
+        "image": "https://i.picsum.photos/id/0/5616/3744.jpg?hmac=3GAAioiQziMGEtLbfrdbcoenXoWAW-zlyEAMkfEdBzQ",
+        "is_on_homepage": true,
+        "date_at": "2021-05-18",
+        "created_at": "2021-05-18 15:09:41",
+        "updated_at": "2021-05-18 15:09:41"
+      },
+      "relationships": {
+        "user": {
+          "links": {
+            "related": "https://api.bookmeinscotty.com/api/v1/items/2/user"
+          }
+        },
+        "category": {
+          "data": {
+            "type": "categories",
+            "id": "2"
+          },
+          "links": {
+            "self": "https://api.bookmeinscotty.com/api/v1/items/2/relationships/category",
+            "related": "https://api.bookmeinscotty.com/api/v1/items/2/category"
+          }
+        },
+        "tags": {
+          "data": [
+            {
+              "type": "tags",
+              "id": "1"
+            }
+          ],
+          "links": {
+            "self": "https://api.bookmeinscotty.com/api/v1/items/2/relationships/tags",
+            "related": "https://api.bookmeinscotty.com/api/v1/items/2/tags"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.bookmeinscotty.com/api/v1/items/2"
+      }
+    },
+    {
+      "type": "items",
+      "id": "3",
+      "attributes": {
+        "name": "Cocktail ideas for your birthday party",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet nulla nulla. Donec luctus lorem justo, ut ullamcorper eros pellentesque ut. Etiam scelerisque dapibus lorem, vitae maximus ante condimentum quis. Maecenas ac arcu a lacus aliquet elementum posuere id nunc. Curabitur sem lorem, faucibus ac enim ut, vestibulum feugiat ante. Fusce hendrerit leo nibh, nec consectetur nulla venenatis et. Nulla tincidunt neque quam, sit amet tincidunt quam blandit in. Nunc fringilla rutrum tortor, sit amet bibendum augue convallis a. Etiam mauris orci, sollicitudin eu condimentum sed, dictum ut odio. Sed vel ligula in lectus scelerisque ornare.Mauris dolor nisl, finibus eget sem in, ultrices semper libero. Nullam accumsan suscipit tortor, a vestibulum sapien imperdiet quis. Donec pretium mauris quis lectus sodales accumsan. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec tincidunt semper orci eu molestie. Vivamus fermentum enim vitae magna elementum, quis iaculis augue tincidunt. Donec fermentum quam facilisis sem dictum rutrum. Nunc nec urna lectus. Nulla nec ultrices lorem. Integer ac ante massa.",
+        "status": "published",
+        "image": "https://i.picsum.photos/id/0/5616/3744.jpg?hmac=3GAAioiQziMGEtLbfrdbcoenXoWAW-zlyEAMkfEdBzQ",
+        "is_on_homepage": true,
+        "date_at": "2021-05-18",
+        "created_at": "2021-05-18 15:09:41",
+        "updated_at": "2021-05-18 15:09:41"
+      },
+      "relationships": {
+        "user": {
+          "links": {
+            "related": "https://api.bookmeinscotty.com/api/v1/items/3/user"
+          }
+        },
+        "category": {
+          "data": {
+            "type": "categories",
+            "id": "2"
+          },
+          "links": {
+            "self": "https://api.bookmeinscotty.com/api/v1/items/3/relationships/category",
+            "related": "https://api.bookmeinscotty.com/api/v1/items/3/category"
+          }
+        },
+        "tags": {
+          "data": [
+            {
+              "type": "tags",
+              "id": "1"
+            }
+          ],
+          "links": {
+            "self": "https://api.bookmeinscotty.com/api/v1/items/3/relationships/tags",
+            "related": "https://api.bookmeinscotty.com/api/v1/items/3/tags"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.bookmeinscotty.com/api/v1/items/3"
+      }
+    }
+  ],
+  "included": [
+    {
+      "type": "categories",
+      "id": "9",
+      "attributes": {
+        "name": "Science & Technology",
+        "description": "All about science and new tech",
+        "created_at": "2021-09-27 14:40:38",
+        "updated_at": "2021-09-27 14:40:38"
+      }
+    },
+    {
+      "type": "tags",
+      "id": "6",
+      "attributes": {
+        "name": "eView",
+        "color": "#405BBF",
+        "created_at": "2021-06-27 10:10:46",
+        "updated_at": "2021-06-27 10:10:46"
+      }
+    },
+    {
+      "type": "categories",
+      "id": "5",
+      "attributes": {
+        "name": "Health & Sports",
+        "description": "An apple a day keeps the doctor away",
+        "created_at": "2021-05-18 15:09:41",
+        "updated_at": "2021-09-27 14:40:03"
+      }
+    },
+    {
+      "type": "tags",
+      "id": "4",
+      "attributes": {
+        "name": "trend",
+        "color": "#C779D2",
+        "created_at": "2021-05-31 17:17:02",
+        "updated_at": "2021-05-31 17:17:02"
+      }
+    },
+    {
+      "type": "categories",
+      "id": "6",
+      "attributes": {
+        "name": "Dimitris",
+        "description": "Demo purpose",
+        "created_at": "2021-06-01 18:49:59",
+        "updated_at": "2021-06-01 18:49:59"
+      }
+    },
+    {
+      "type": "tags",
+      "id": "5",
+      "attributes": {
+        "name": "chania",
+        "color": "#B3B4E6",
+        "created_at": "2021-06-01 18:50:53",
+        "updated_at": "2021-06-01 18:50:53"
+      }
+    },
+    {
+      "type": "tags",
+      "id": "3",
+      "attributes": {
+        "name": "New",
+        "color": "#00bcd4",
+        "created_at": "2021-05-18 15:09:41",
+        "updated_at": "2021-05-18 15:09:41"
+      }
+    },
+    {
+      "type": "categories",
+      "id": "1",
+      "attributes": {
+        "name": "Travel & Adventure",
+        "description": "Travel ideas for everyone",
+        "created_at": "2021-05-18 15:09:41",
+        "updated_at": "2021-09-27 14:37:29"
+      }
+    },
+    {
+      "type": "tags",
+      "id": "1",
+      "attributes": {
+        "name": "Hot",
+        "color": "#f44336",
+        "created_at": "2021-05-18 15:09:41",
+        "updated_at": "2021-05-18 15:09:41"
+      }
+    },
+    {
+      "type": "tags",
+      "id": "2",
+      "attributes": {
+        "name": "Trending",
+        "color": "#9c27b0",
+        "created_at": "2021-05-18 15:09:41",
+        "updated_at": "2021-05-18 15:09:41"
+      }
+    },
+    {
+      "type": "categories",
+      "id": "2",
+      "attributes": {
+        "name": "Food & Drinks",
+        "description": "Our favourite recipes",
+        "created_at": "2021-05-18 15:09:41",
+        "updated_at": "2021-09-27 14:37:41"
+      }
+    },
+    {
+      "type": "categories",
+      "attributes": {
+        "name": "Food & Drinks",
+        "description": "Our favourite recipes",
+        "created_at": "2021-05-18 15:09:41",
+        "updated_at": "2021-09-27 14:37:41"
+      },
+      "id": "SXzsxOf"
+    },
+    {
+      "type": "categories",
+      "attributes": {
+        "name": "Food & Drinks",
+        "description": "Our favourite recipes",
+        "created_at": "2021-05-18 15:09:41",
+        "updated_at": "2021-09-27 14:37:41"
+      },
+      "id": "u3Uj2MH"
+    },
+    {
+      "type": "categories",
+      "attributes": {
+        "name": "Food & Drinks",
+        "description": "Our favourite recipes",
+        "created_at": "2021-05-18 15:09:41",
+        "updated_at": "2021-09-27 14:37:41"
+      },
+      "id": "boJGmgz"
+    }
+  ]
+}
