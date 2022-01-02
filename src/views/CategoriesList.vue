@@ -57,7 +57,7 @@
       <div class="scotty-row">
         Showing {{ (currentPage - 1) * perPage + 1 }} to
         {{ currentPage * perPage > rows ? rows : currentPage * perPage }}
-        of {{ rows }}
+        of {{ rows }} entries
         <b-pagination
           v-model="currentPage"
           pills
