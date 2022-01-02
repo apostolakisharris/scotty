@@ -1,0 +1,136 @@
+@import './_variables.scss';  
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  //margin-top: 60px;
+  padding: 2em;
+}
+.page-title{
+  font-weight: bold;
+}
+.scotty-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  &.top {
+    border-bottom-style: solid;
+    border-bottom-color: $border-color;
+    border-bottom-width: 0.5px;
+    padding-bottom: 2em;
+  }
+  .page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: $button-color;
+    border-color: $button-color;
+  }
+  .page-link {
+    color: $button-color;
+    &:hover {
+      color: $button-color;
+    }
+  }
+}
+.btn {
+  &.btn-scotty {
+    color: white;
+    background-color: $button-color;
+    border-color: $button-color;
+    &:hover {
+      color: white;
+    }
+  }
+  &.btn-scotty-row {
+    color: $border-color;
+    background-color: white;
+    border-color: white;
+    &:hover {
+      color: $border-color;
+    }
+  }
+}
+.page-item.active .page-link {
+  z-index: 3;
+  color: #fff;
+  background-color: $button-color;
+  border-color: $button-color;
+}
+.scotty-search {
+  max-width: 15em;
+}
+.scotty-page-options {
+  min-width: 15em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+.scotty-table {
+  text-align: initial;
+  &.table {
+    .table-header {
+      background-color: #f6f9fc;
+      text-transform: uppercase;
+      color: $border-color;
+    }
+    .table-actions{
+      text-align: end;      
+    }
+  }
+  &.table > :not(:first-child) {
+    border-top: none;
+  }
+  &.table > :not(caption) > * > * {
+    box-shadow: none;
+  }
+}
+
+.scotty-modal {
+  .modal-title {
+    font-size: 2em;
+    padding-bottom: 1em;
+  }
+  .btn {
+    &.btn-scotty-yes {
+      color: white;
+      background-color: $button-color;
+      border-color: $button-color;
+      &:hover {
+        color: white;
+      }
+    }
+    &.btn-scotty-no {
+      color: white;
+      background-color: $no-button-color;
+      border-color: $no-button-color;
+      &:hover {
+        color: white;
+      }
+    }
+  }
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.scotty-input-icon {
+  display: flex;
+  i{
+    display: flex;
+    align-items: center;
+    border: 1px solid #ced4da;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    color: #ced4da;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+  }
+  input{
+    border-left: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+
+  }
+}

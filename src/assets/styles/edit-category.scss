@@ -1,0 +1,17 @@
+@import "./_variables.scss";
+
+.edit-category-container {
+  padding: 3em;
+  text-align: initial;
+  .scotty-action-row{
+      margin-top: 2em;
+  }
+}
+.scotty-input {
+  margin-top: 2em;
+  .scotty-label {
+    padding-bottom: 1em;
+    font-weight: bold;
+  }
+}
+
